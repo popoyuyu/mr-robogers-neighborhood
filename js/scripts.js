@@ -2,11 +2,12 @@ function beepBoop(number) {
   const numArray = [];
 
   for (let i = 0; i <= number; i++) {
-    if (i.toString().includes("3")) {
+    let numString = i.toString();
+    if (numString.includes("3")) {
       numArray.push("Won't you be my neighbor?")
-    } else if (i.toString().includes("2")) {
+    } else if (numString.includes("2")) {
       numArray.push("Boop!")
-    } else if (i.toString().includes("1")) {
+    } else if (numString.includes("1")) {
       numArray.push("Beep!")
     } else {
       numArray.push(i)
