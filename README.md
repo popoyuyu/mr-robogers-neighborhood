@@ -14,14 +14,14 @@
 
 ## Description
 
-_This browser application allows users to see my accomplishments and projects as a developer!_
+_This browser application allows users to input a number which will output a phrase Mr. Roboger will say. If a number contains 1 it will return with a "beep!". If a number contains 2 it will return with a "boop!". If a number contains 3 it will return with a "Won't you be my neighbor?"._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository to your desktop._
-* _Navigate to the top level of directory._
+* _Open terminal and enter "https://github.com/popoyuyu/mr-robogers-neighborhood.git"._
+* _Next, enter "cd mr-robogers-neighborhood" to navigate into project directory._
 * _Open index.html in your browser._
-* _Site may also be viewed on GitHub Pages at popoyuyu.github.io/portfolio-landing-page_
+* _Enter "code ." top open project file in VSCode._
 
 
 
@@ -64,18 +64,19 @@ _Test: "It should return an array from 0 to 5"_
 _Code: beepBoop(5);_
 _Epected Output: [0, 1, 2, 3, 4, 5]_
 
-_Test: "It should return "Won't you be my neighbor?" for 3 while all other numbers return as is_
+_Test: "It should return "Won't you be my neighbor?" for 3 while all other numbers return as is."_
 _Code: beepBoop(5);_
 _Epected Output: [0, 1, 2, "Won't you be my neighbor?", 4, 5]_
 
-_Test: "It should return "Boop!" for 2 while all other numbers return as is_
+_Test: "It should return "Boop!" for 2 while all other numbers return as is."_
 _Code: beepBoop(5);_
 _Epected Output: [0, 1, "Boop!", 3, 4, 5]_
 
-_Test: "It should return "Beep!" for 1 while all other numbers return as is_
+_Test: "It should return "Beep!" for 1 while all other numbers return as is."_
 _Code: beepBoop(5);_
 _Epected Output: [0, "Beep!", 2, 3, 4, 5]_
 
-_Test: "It should return "Beep!" for 1, "Boop!" for 2, and "Won't you be my neighbor?" for 3 while all other numbers return as is_
+_Test: "It should return "Beep!" for 1, "Boop!" for 2, and "Won't you be my neighbor?" for 3 while all other numbers return as is."_
 _Code: beepBoop(5);_
 _Epected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]_
+
