@@ -75,3 +75,7 @@ _Epected Output: [0, 1, "Boop!", 3, 4, 5]_
 _Test: "It should return "Beep!" for 1 while all other numbers return as is_
 _Code: beepBoop(5);_
 _Epected Output: [0, "Beep!", 2, 3, 4, 5]_
+
+_Test: "It should return "Beep!" for 1, "Boop!" for 2, and "Won't you be my neighbor?" for 3 while all other numbers return as is_
+_Code: beepBoop(5);_
+_Epected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]_
