@@ -2,11 +2,11 @@ function beepBoop(number) {
   const numArray = [];
   const numThree = "Wont you be my neighbor?";
   for (let i = 0; i <= number; i++) {
-    if (i = numThree) {
-      numArray.push()
-    } else {
-      numArray.push(i);
+    if (i === 3) {
+      numArray.push(numThree)
     }
-    return numArray;
+    numArray.push(i)
   }
-  console.log(beepBoop(5));
+  console.log(numArray);
+}
+console.log(beepBoop(5));
