@@ -15,14 +15,12 @@ function beepBoop(number) {
   }
   return numArray
 }
-console.log(beepBoop(50));
-  //   if (i === 3) {
-    //     numArray.push(numThree)
-    //   }
-    //   else if (i === 2) {
-    //     numArray.push(numTwo)
-    //   }
-    //   else if (i === 1) {
-    //     numArray.push(numOne)
-    //   } 
-     // }
+
+$("document").ready(function () {
+  $("form#form").submit(function (event) {
+    event.preventDefault();
+    const number = ("#input").val();
+    console.log(number());
+    $("span#result")
+  });
+});
