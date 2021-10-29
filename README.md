@@ -2,13 +2,15 @@
 
 #### By _**Jeff Lai**_
 
-#### _Web Application_
+#### _Web Application allows users to_
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
-* _Markdown_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ## Description
 
@@ -49,3 +51,11 @@ SOFTWARE._
 
 
 Copyright (c) _October 29th 2021_ _Jeff Lai_
+
+## Tests
+
+# Describe: beepBoop()
+
+_Test: "It should return an array with a 0 if the number 0 is inputted"_
+_Code: beepBoop(0);_
+_Epected Output: 0_
