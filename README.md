@@ -2,7 +2,7 @@
 
 #### By _**Jeff Lai**_
 
-#### _Web Application allows users to_
+#### _Web Application allows users to put in numbers and outputs what Mr. Roboger might say._
 
 ## Technologies Used
 
