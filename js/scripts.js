@@ -20,6 +20,7 @@ $("document").ready(function () {
   $("form#form").submit(function (event) {
     event.preventDefault();
     let inputNumber = $("#inputNumber").val();
-    $("#result").text(inputNumber);
+    let myResult = beepBoop(inputNumber).join();
+    $("#result").text(myResult);
   });
 });
