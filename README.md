@@ -52,10 +52,18 @@ SOFTWARE._
 
 Copyright (c) _October 29th 2021_ _Jeff Lai_
 
-## Tests
+## TDD
 
 # Describe: beepBoop()
 
 _Test: "It should return an array with a 0 if the number 0 is inputted"_
 _Code: beepBoop(0);_
-_Epected Output: 0_
+_Epected Output: [0]_
+
+_Test: "It should return an array from 0 to 5"_
+_Code: beepBoop(5);_
+_Epected Output: [0, 1, 2, 3, 4, 5]_
+
+_Test: "It should return "Won't you be my neighbor?" for 3 while all other numbers return as is_
+_Code: beepBoop(5);_
+_Epected Output: [0, 1, 2, "Won't you be my neighbor?", 4, 5]_
