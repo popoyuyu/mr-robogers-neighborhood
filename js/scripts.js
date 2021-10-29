@@ -5,4 +5,4 @@ function beepBoop(number) {
   }
   return numArray;
 }
-console.log(beepBoop(0));
+console.log(beepBoop(5));
