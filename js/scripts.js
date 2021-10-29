@@ -19,8 +19,7 @@ function beepBoop(number) {
 $("document").ready(function () {
   $("form#form").submit(function (event) {
     event.preventDefault();
-    const number = ("#input").val();
-    console.log(number());
-    $("span#result")
+    let inputNumber = $("#inputNumber").val();
+    $("#result").text(inputNumber);
   });
 });
