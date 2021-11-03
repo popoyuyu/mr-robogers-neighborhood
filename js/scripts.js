@@ -4,16 +4,16 @@ function beepBoop(number) {
   for (let i = 0; i <= number; i++) {
     let numString = i.toString();
     if (numString.includes("3")) {
-      numArray.push("Won't you be my neighbor?")
+      numArray.push("Won't you be my neighbor?");
     } else if (numString.includes("2")) {
-      numArray.push("Boop!")
+      numArray.push("Boop!");
     } else if (numString.includes("1")) {
-      numArray.push("Beep!")
+      numArray.push("Beep!");
     } else {
-      numArray.push(i)
+      numArray.push(i);
     }
   }
-  return numArray
+  return numArray;
 }
 
 $("document").ready(function () {
